@@ -1,0 +1,449 @@
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<title>爽哥导航</title>
+	<meta name="Keywords" content="爽哥导航"/>
+	<meta name="Description" content="爽哥导航"/>
+	<link rel="shortcut icon" href="img/ys.ico">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		html,body{
+			overflow-x: hidden;
+			background:url(img/1.jpg) fixed 100% 100%;
+		}
+		#table{
+			width: 1000px;
+			margin: 0 auto;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+		#table td{
+			text-align: center;
+			transition: all 0.3s;
+			width: 190px;
+			height: 50px;
+		}
+		#table .blog:hover{
+			animation: bounce 0.5s;
+			background-color: cornflowerblue;
+		}
+		#table .sever:hover{
+			background-color: indianred;
+			animation: rubberBand 0.5s;
+		}
+		#table .jc:hover{
+			background-color: green;
+			animation: bounceIn 0.5s;
+		}
+		#table td:hover a{
+			color: white;
+		}
+		.blog a{
+			color: cadetblue;
+			transition: all 0.3s;
+		}
+		.sever a{
+			color: indianred;
+			transition: all 0.3s;
+		}
+		.jc a{
+			color: green;
+			transition: all 0.3s;
+		}
+		.blog{
+			border: 1px solid cornflowerblue;
+		}
+		.sever{
+			border: 1px solid indianred;
+		}
+		.jc{
+			border: 1px solid green;
+		}
+		#top{
+			width: 100%;
+		}
+		#top img{
+			width: 10%;
+		}
+		#nav{
+			width: 100%;
+			height: 50px;
+			background-color: cadetblue;
+			margin-bottom: 10px;
+		}
+		#nav ul{
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			display: flex;
+			justify-content: space-around;
+			text-align: center;
+		}
+		#nav ul li{
+			width: 130px;
+			height: 100%;
+			display: inline-block;
+			transition: all 0.3s;
+		}
+		#nav ul li:hover{
+			background-color: lightblue;
+		}
+		#nav a{
+			color: white;
+			font-size: 20px;
+		}
+		#foot{
+			width: 100%;
+			text-align: center;
+		}
+		.wz{
+			border: 1px solid purple;
+		}
+		.wz a{
+			color: purple;
+			transition: all 0.3s;
+		}
+		
+		#table .wz:hover{
+			background-color: purple;
+			animation: flipInX 0.5s;
+		}
+		
+		.ds{
+			border: 1px solid palevioletred;
+		}
+		.ds a{
+			color: palevioletred;
+			transition: all 0.3s;
+		}
+		#table .ds:hover{
+			background-color: palevioletred;
+			animation: tada 0.5s;
+		}
+	</style>
+</head>
+<body>
+	<div id="top">
+		<a href="###" target="_blank"><img src="img\1.png" class="animated fadeInRightBig"/></a>
+		<div id="nav" class="animated flipInX">
+			<ul>
+				<a href="index.html"><li>首页</li></a>
+				<a href="https://www.xn--yrv04v.com/gy" target="_blank" title=""><li>关于我</li></a>
+				<a href="https://www.xn--yrv04v.com" target="_blank"><li>杨爽工作室</li></a>
+			</ul>
+		</div>
+	</div>
+	<table border="1" cellspacing="0" cellpadding="0" id="table" class="animated zoomIn">
+		<!--标题-->
+		<tr id="one">
+			<td colspan="6" style="background-color: cornflowerblue;color: white;font-size: 20px;font-weight: bold;border: 2px solid cornflowerblue;">不定时更新【如果有朋友 有好用的网站 可以联系我 我会挂上】联系邮箱675680672@qq.com</td>
+		</tr>
+		<tr>
+			<td colspan="6" style="background-color: cornflowerblue;color: white;font-size: 20px;font-weight: bold;border: 2px solid cornflowerblue;">发现网站连接失效 可以通过上面邮箱联系我</td>
+		</tr>
+		<!--对应的网站链接-->
+		<tr>
+			<td class="ds"><a href="https://www.123pan.com/s/SluDVv-DOejH.html" target="_blank">123云盘-加速器fastgithub</a></td>
+			<td class="ds"><a href="https://pan.baidu.com/s/1cyIqZ6uEuzQe-cInyMAGGQ?pwd=db1a " target="_blank">百度云盘-加速器fastgithub</a></td>
+			<td class="ds"><a href="https://github.com/dotnetcore/FastGithub" target="_blank">开源地址-加速器fastgithub</a></td>
+			<td class="ds"><a href="https://github.com/Tomotoes/scrcpy-gui" target="_blank">开源地址-可视化Windows控制Android</a></td>
+			<td class="ds"><a href="https://github.com/Genymobile/scrcpy" target="_blank">开源地址-简易化Windows控制Android</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.veracrypt.fr" target="_blank">官网-文件加密VeraCrypt-需要魔法网络</a></td>
+			<td class="ds"><a href="https://github.com/peazip/PeaZip" target="_blank">开源地址-解压缩工具 PeaZip</a></td>
+			<td class="ds"><a href="https://keepass.info" target="_blank">官网-账号密码管理软件KeePass</a></td>
+			<td class="ds"><a href="https://keepassxc.org" target="_blank">官网-账号密码管理软件KeePassXC-需要魔法网络</a></td>
+			<td class="ds"><a href="https://github.com/nilaoda/N_m3u8DL-CLI/releases" target="_blank">开源地址-m3u8视频下载器</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://github.com/xifangczy/cat-catch" target="_blank">开源地址-猫抓资源嗅探扩展</a></td>
+			<td class="ds"><a href="https://xtremedownloadmanager.com" target="_blank">官网-XDM下载器-需要魔法网络</a></td>
+			<td class="ds"><a href="https://cmwtat.cloudmoe.com/cn.html" target="_blank">官网-激活Windows10\11-需要魔法网络</a></td>
+			<td class="ds"><a href="https://kodi.tv" target="_blank">官网-本地影音系统 kodi-需要魔法网络</a></td>
+			<td class="ds"><a href="https://makenweb.com/SpleeterGUI" target="_blank">官网-音乐伴奏制作神器SpleeterGUI-需要魔法网络</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://developerstree.github.io/permadelete" target="_blank">官网-强力删除文件-需要魔法网络</a></td>
+			<td class="ds"><a href="https://file-converter.org" target="_blank">官网-文件转换器-需要魔法网络</a></td>
+			<td class="ds"><a href="https://www.onlyoffice.com/" target="_blank">官网-第三方办公软件 ONLYOFFICE-需要魔法网络</a></td>
+			<td class="ds"><a href="https://zh-cn.libreoffice.org/" target="_blank">官网-第三方办公软件 libreoffice-需要魔法网络</a></td>
+			<td class="ds"><a href="https://listen1.github.io/listen1/" target="_blank">开源地址-音乐播放器Listen 1-需要魔法网络</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://shotcut.org" target="_blank">官网-开源-视频编辑软件Shotcut</a></td>
+			<td class="ds"><a href="https://openwrt.org/zh/start" target="_blank">官网-openwrt最强软路由系统</a></td>
+			<td class="ds"><a href="https://crystalmark.info/en/" target="_blank">官网-硬盘检测工具CrystalDiskInfo-需要魔法网络</a></td>
+			<td class="ds"><a href="https://github.com/Molunerfinn/PicGo" target="_blank">开源地址-图床工具PicGo</a></td>
+			<td class="ds"><a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition" target="_blank">开源地址-种子下载器qBittorrent</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://sandboxie-plus.com" target="_blank">官网-沙盒软件 SANDBOXIE PLUS</a></td>
+			<td class="ds"><a href="https://github.com/zbezj/HEU_KMS_Activator" target="_blank">开源地址-Windows激活软件 HEU_KMS_Activator</a></td>
+			<td class="ds"><a href="https://github.com/ArcadeRenegade/SidebarDiagnostics" target="_blank">开源地址-电脑硬件监控软件 Sidebar Diagnostics</a></td>
+			<td class="ds"><a href="https://github.com/thebookisclosed/ViVe/releases/tag/v0.3.3" target="_blank">开源地址-Windows11 开放隐藏新功能 ViveTool</a></td>
+			<td class="ds"><a href="https://github.com/Wind4/vlmcsd" target="_blank">开源地址-自建KMS激活服务</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://github.com/agalwood/Motrix" target="_blank">开源地址-下载器Motrix</a></td>
+			<td class="ds"><a href="https://github.com/EdgelessPE/Edgeless" target="_blank">开源地址-强大而优雅的半开源PE工具Edgeless</a></td>
+			<td class="ds"><a href="https://github.com/lyswhut/lx-music-desktop#readme" target="_blank">开源地址-洛雪音乐助手桌面版</a></td>
+			<td class="ds"><a href="https://github.com/obsproject/obs-studio" target="_blank">开源地址-OBS直播工具</a></td>
+			<td class="ds"><a href="https://github.com/microsoft/PowerToys" target="_blank">开源地址-Windows最强工具箱PowerToys</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="http://www.tbtool.cn" target="_blank">官网-图拉丁工具箱</a></td>
+			<td class="ds"><a href="https://github.com/zhongyang219/TrafficMonitor" target="_blank">开源地址-监控悬浮窗软件 Traffic Monitor</a></td>
+			<td class="ds"><a href="https://github.com/barry-ran/QtScrcpy" target="_blank">开源地址-升级版 可视化Windows控制Android</a></td>
+			<td class="ds"><a href="https://getsharex.com" target="_blank">开源地址-高级截图工具ShareX</a></td>
+			<td class="ds"><a href="https://github.com/OpenEthan/SMSBoom" target="_blank">开源地址-短信炸弹 SMSBoom 不建议随意使用 小心找你喝茶</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://github.com/BlueMatthew/WechatExporter" target="_blank">开源地址-电脑版微信聊天记录导出 WechatExporter</a></td>
+			<td class="ds"><a href="https://github.com/koishijs/koishi" target="_blank">开源地址-高性能的聊天机器人框架 Koishi</a></td>
+			<td class="ds"><a href="https://github.com/localsend/localsend" target="_blank">开源地址-局域网文件传输神器 localsend</a></td>
+			<td class="ds"><a href="https://github.com/transmission/transmission" target="_blank">开源地址-BT下载神器 transmission</a></td>
+			<td class="ds"><a href="https://github.com/Chuyu-Team/Dism-Multi-language" target="_blank">开源地址-Windows系统优化工具 Dism++</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://github.com/qbittorrent/qBittorrent" target="_blank">开源地址-BT下载神器 qbittorrent</a></td>
+			<td class="ds"><a href="https://www.torproject.org" target="_blank">官网-最安全的浏览器 洋葱-需要魔法网络</a></td>
+			<td class="ds"><a href="https://gitee.com/cxasm/notepad--#https://gitee.com/cxasm/notepad--/releases/latest" target="_blank">开源地址-轻量级文本编辑器 notepad--</a></td>
+			<td class="ds"><a href="https://github.com/alist-org/alist" target="_blank">开源地址-网盘挂载神器 A file</a></td>
+			<td class="ds"><a href="https://github.com/henrypp/memreduct" target="_blank">开源地址-内存清理神器 Mem Reduct</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://github.com/hellzerg/optimizer" target="_blank">开源地址-Windows优化利器 optimizer</a></td>
+			<td class="ds"><a href="https://github.com/HandBrake/HandBrake" target="_blank">开源地址-视频压缩工具 HandBrake</a></td>
+			<td class="ds"><a href="https://github.com/Tohrusky/Final2x" target="_blank">开源地址-图片放大工具 Final2x</a></td>
+			<td class="ds"><a href="https://github.com/GopeedLab/gopeed" target="_blank">开源地址-现代化的下载器 gopeed</a></td>
+			<td class="ds"><a href="https://www.thunderbird.net/zh-CN" target="_blank">官网-免费-邮箱管理器 Thunderbird</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://tts-doc.loker.vip" target="_blank">官网-免费-最强文本转语音 TTS-Vue</a></td>
+			<td class="ds"><a href="https://registry-finder.com" target="_blank">官网-免费-Windows高级注册表编辑器 Registry Finder</a></td>
+			<td class="ds"><a href="https://whatk.me" target="_blank">9个神器</a></td>
+			<td class="ds"><a href="https://www.disktool.cn" target="_blank">免费-傲梅官网网站</a></td>
+			<td class="ds"><a href="http://hibitsoft.ir/Uninstaller.html" target="_blank">官网-免费-卸载神器 HiBit Uninstaller-需要魔法网络</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://steampp.net" target="_blank">官网-免费-加速器Steam++</a></td>
+			<td class="ds"><a href="https://www.ventoy.net/cn/index.html" target="_blank">官网-免费开源-最强制作启动U盘工具</a></td>
+			<td class="ds"><a href="http://www.17rd.com/index2.htm" target="_blank">免费-光盘刻录大师</a></td>
+			<td class="ds"><a href="https://www.radmin-lan.cn" target="_blank">官网-免费-单机游戏连接神器 Radmin LAN-需要魔法网络</a></td>
+			<td class="ds"><a href="https://www.cpuid.com” target="_blank">官网-CPU检测软件 CPU-Z</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://haveibeenpwned.com" target="_blank">全球知名的泄露查询网站</a></td>
+			<td class="ds"><a href="http://www.th-sjy.com" target="_blank">知名汉化软件分享</a></td>
+			<td class="ds"><a href="https://www.423down.com" target="_blank">知名软件分享</a></td>
+			<td class="ds"><a href="https://www.voidtools.com/zh-cn" target="_blank">免费-Windows文件搜索工具 Everything</a></td>
+			<td class="ds"><a href="https://www.wepe.com.cn" target="_blank">官网-免费-WinPE装机维护工具</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://geekuninstaller.com" target="_blank">官网-免费-卸载神器 Geek Uninstaller</a></td>
+			<td class="ds"><a href="https://ffmpeg.org/download.html#build-windows" target="_blank">官网=免费-音视频处理工具 FFmpeg</a></td>
+			<td class="ds"><a href="http://www.ipmsg.org.cn" target="_blank">官网-免费-局域网通信神器 飞鸽传书</a></td>
+			<td class="ds"><a href="https://www.tilldream.com" target="_blank">收费-WindowsNAS神器 WinNAS</a></td>
+			<td class="ds"><a href="https://www.raidrive.com" target="_blank">官网-部分功能收费-网盘挂载网盘工具 raidrive-需要魔法网络</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.fosshub.com" target="_blank">官网-免费开源软件的下载宝库 FOSSHUB</a></td>
+			<td class="ds"><a href="https://www.xyaz.cn" target="_blank">官网-逍遥安卓模拟器</a></td>
+			<td class="ds"><a href="https://www.ldmnq.com" target="_blank">官网-雷电安卓模拟器</a></td>
+			<td class="ds"><a href="https://www.yeshen.com" target="_blank">官网-夜神安卓模拟器</a></td>
+			<td class="ds"><a href="https://mumu.163.com" target="_blank">官网-MuMu安卓模拟器</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.henrypp.org" target="_blank">HENRY++博客</a></td>
+			<td class="ds"><a href="https://etcher.balena.io" target="_blank">官网-免费-硬盘写入工具 balenaEtcher-需要魔法网络</a></td>
+			<td class="ds"><a href="http://rufus.ie/zh" target="_blank">官网-免费-硬盘写入工具 Rufus-需要魔法网络</a></td>
+			<td class="ds"><a href="http://www.xt800.cn" target="_blank">官网-XT800远程</a></td>
+			<td class="ds"><a href="http://www.rdviewer.com" target="_blank">官网-RdViewer远程</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.todesk.com" target="_blank">官网-ToDesk远程</a></td>
+			<td class="ds"><a href="https://rustdesk.com/zh" target="_blank">官网-RustDesk远程</a></td>
+			<td class="ds"><a href="https://sunlogin.oray.com/download?categ=personal" target="_blank">官网-向日葵远程</a></td>
+			<td class="ds"><a href="https://anydesk.com/zhs" target="_blank">官网-AnyDesk远程</a></td>
+			<td class="ds"><a href="https://www.teamviewer.cn/cn" target="_blank">官网-TeamViewer远程</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.tampermonkey.net" target="_blank">官网-油猴 Tampermonkey-需要魔法网络</a></td>
+			<td class="ds"><a href="https://www.cs2c.com.cn" target="_blank">官网-国产系统-银河麒麟系统</a></td>
+			<td class="ds"><a href="https://www.sysceo.com" target="_blank">官网-系统总裁</a></td>
+			<td class="ds"><a href="https://www.yunqishi.net" target="_blank">官网-云骑士</a></td>
+			<td class="ds"><a href="https://bbs.pcbeta.com/" target="_blank">官网-远景论坛</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="http://www.msdngho.com" target="_blank">免费系统镜像站 MSDN, 我告诉你</a></td>
+			<td class="ds"><a href="https://msdn.itellyou.cn" target="_blank">免费系统镜像站 MSDN, 我告诉你</a></td>
+			<td class="ds"><a href="https://www.uupdump.cn/" target="_blank">免费系统镜像站 UUP dump</a></td>
+			<td class="ds"><a href="http://www.pcfreetime.com" target="_blank">官网-格式工厂</a></td>
+			<td class="ds"><a href="http://www.vidown.cn" target="_blank">官网-在线视频下载器 维棠</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://waxrain.com/index.html" target="_blank">官网-局域网分屏软件 AirPin</a></td>
+			<td class="ds"><a href="https://greasyfork.org/zh-CN" target="_blank">官网-油猴脚本 Greasy Fork</a></td>
+			<td class="ds"><a href="https://www.7-zip.org" target="_blank">官网-免费压缩工具 7-zip</a></td>
+			<td class="ds"><a href="https://www.sysceo.com" target="_blank">官网-电脑系统维护工具站  系统总裁</a></td>
+			<td class="ds"><a href="https://www.itsk.com" target="_blank">官网-电脑系统维护工具站  IT天空</a></td>
+
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.speedtest.net" target="_blank">工具站-全球宽带速度测试  Speedtest</a></td>
+			<td class="ds"><a href="https://u.tools" target="_blank">官网-效率工具平台 utools</a></td>
+			<td class="ds"><a href="http://getquicker.net" target="_blank">官网-效率工具平台  Quicker</a></td>
+			<td class="ds"><a href="http://www.estrongs.com" target="_blank">官网-手机文件管理器  ES文件浏览器</a></td>
+			<td class="ds"><a href="https://lkssite.vip" target="_blank">工具-B站知名博主 -LKs-提供的工具站 </a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://openwrt.org/zh/start" target="_blank">官网-免费-路由器系统 OpenWrt</a></td>
+			<td class="ds"><a href="https://openwrt.ai" target="_blank">OpenWrt软路由固件下载与在线定制编译</a></td>
+			<td class="ds"><a href="https://www.ikuai8.com" target="_blank">官网-路由器系统 爱快</a></td>
+			<td class="ds"><a href="https://www.istoreos.com" target="_blank">官网-路由器系统 iStoreOS</a></td>
+			<td class="ds"><a href="https://www.similarsites.com" target="_blank">官网-寻找类似网站</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.zerotier.com" target="_blank">官网-免费-内网穿透神器 ZeroTier</a></td>
+			<td class="ds"><a href="https://www.autopiano.cn" target="_blank">官网-自由钢琴 AutoPiano</a></td>
+			<td class="ds"><a href="https://www.tosound.com" target="_blank">官网-免费-淘声网 - toSound声音搜索引擎</a></td>
+			<td class="ds"><a href="https://mail.td/zh" target="_blank">工具站-免费-临时邮箱</a></td>
+			<td class="ds"><a href="http://24mail.chacuo.net/" target="_blank">工具站-免费-临时邮箱</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.remove.bg/zh" target="_blank">AI-免费-抠图</a></td>
+			<td class="ds"><a href="https://www.yikm.net" target="_blank">免费-网页版经典游戏模拟器</a></td>
+			<td class="ds"><a href="https://github.com/ntdevlabs/tiny11builder" target="_blank">开源地址-Windows系统精简神器</a></td>
+			<td class="ds"><a href="https://www.cokemv.fun" target="_blank">免费-电影-COKEMV</a></td>
+			<td class="ds"><a href="###" target="_blank">免费-电脑壁纸 番剧 头像 次元小镇</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://test-ipv6.com" target="_blank">工具-IPv6 连接测试</a></td>
+			<td class="ds"><a href="https://www.xshell.com/zh/free-for-home-school" target="_blank">官网-免费-服务器/虚拟主机 SSH和SFTP/FTP客户端 Xshell</a></td>
+			<td class="ds"><a href="https://www.hostbuf.com" target="_blank">官网-免费-服务器 SSH客户端 FinalShell</a></td>
+			<td class="ds"><a href="http://mxdm.tv" target="_blank">MX动漫</a></td>
+			<td class="ds"><a href="http://www.mianfeixiaoshuoyueduwang.com" target="_blank">免费小说阅读网</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.3gbizhi.com" target="_blank">工具站-3G壁纸</a></td>
+			<td class="ds"><a href="https://ali.gitcafe.ink" target="_blank">阿里云盘资源网 小纸条</a></td>
+			<td class="ds"><a href="hhttps://cowtransfer.com" target="_blank">官网-网盘-奶牛快传</a></td>
+			<td class="ds"><a href="https://www.jianguoyun.com" target="_blank">官网-网盘-坚果云</a></td>
+			<td class="ds"><a href="https://115.com" target="_blank">官网-网盘-115网盘</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.filez.com" target="_blank">官网-网盘-联想Filez</a></td>
+			<td class="ds"><a href="https://cloud.189.cn/web/login.html" target="_blank">官网-网盘-天翼云盘</a></td>
+			<td class="ds"><a href="https://www.ctfile.com" target="_blank">官网-网盘-城通网盘</a></td>
+			<td class="ds"><a href="https://www.weiyun.com" target="_blank">官网-网盘-腾讯微云</a></td>
+			<td class="ds"><a href="https://www.fangcloud.com" target="_blank">官网-网盘-亿方云盘</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://yunpan.360.cn" target="_blank">官网-网盘-360安全云盘</a></td>
+			<td class="ds"><a href="https://yun.139.com" target="_blank">官网-网盘-中国移动云盘</a></td>
+			<td class="ds"><a href="https://www.wenshushu.cn" target="_blank">官网-网盘-文叔叔</a></td>
+			<td class="ds"><a href="https://www.bilnn.com" target="_blank">官网-网盘-比邻云</a></td>
+			<td class="ds"><a href="https://www.123pan.com/login" target="_blank">官网-网盘-123云盘</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.tmp.link" target="_blank">官网-网盘-钛盘</a></td>
+			<td class="ds"><a href="#https://filedoge.com" target="_blank">官网-网盘-File Doge</a></td>
+			<td class="ds"><a href="https://www.stariverpan.com/home.html" target="_blank">官网-网盘-小龙盘</a></td>
+			<td class="ds"><a href="https://disk.bestcloud.cn/#/index" target="_blank">官网-网盘-私密云</a></td>
+			<td class="ds"><a href="https://pc.woozooo.com" target="_blank">官网-网盘-蓝奏云</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://www.aliyundrive.com" target="_blank">官网-网盘-阿里云盘</a></td>
+			<td class="ds"><a href="https://yun.baidu.com" target="_blank">官网-网盘-百度云盘</a></td>
+			<td class="ds"><a href="https://www.feijipan.com" target="_blank">官网-网盘-小飞机网盘</a></td>
+			<td class="ds"><a href="https://kodcloud.com" target="_blank">官网-网盘系统-可道云</a></td>
+			<td class="ds"><a href="https://os.tenfell.cn" target="_blank">官网-网盘系统-腾飞webos</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="https://vocalremover.org/zh" target="_blank">工具站-分离人声</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+		<tr>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+			<td class="ds"><a href="###" target="_blank">待添加</a></td>
+		</tr>
+	</table>
+	<div id="foot">
+		<p>Copyright © 2023<a href="https://www.xn--yrv04v.com" target="_blank" style="color: black;"> 杨爽工作室首页</a></p>
+		<p>友情链接：<a href="https://www.xn--yrv04v.com/dh" target="_blank" style="color: cadetblue;">爽哥导航</a></p>
+	</div>
+</body>
+    <video autoplay>
+    <source src="hj.m4a" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </video>
+</html>

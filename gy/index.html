@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>关于杨爽工作室</title>
+    <meta name="keywords" content="杨爽工作室,杨爽,杨爽个人信息,关于杨爽工作室,杨爽联系方式,残疾人杨爽,关于杨爽,杨爽工作室服务范围,杨爽工作室商务合作"/>
+    <meta name="description" content="杨爽工作室 是属于个人工作站"/>
+<link rel="icon" href="image/ys.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="image/ys.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="css/index.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+	$(function(){
+	  init();
+	  $("#shouye_div").show();
+	  $(".title_list td").mouseover(function(){
+		$(this).removeClass("button_out");  
+		$(this).addClass("button_over");
+		
+	}).mouseout(function(){
+		$(this).removeClass("button_over");
+		  $(this).addClass("button_out"); 
+	});
+
+	$("#shouye_button").click(function(){
+		clear();
+		$(this).removeClass("button_over");
+		$(this).addClass("button_click");
+		init();
+		$("#shouye_div").show();
+		$(".video_menu").show();
+	});
+	$("#guanyuyangshuang_button").click(function(){
+		clear();
+		$(this).removeClass("button_over");
+		$(this).addClass("button_click");
+		init();
+		$("#guanyuyangshuang_div").show();
+	});
+	$("#fuwufanwei_button").click(function(){
+		clear();
+		$(this).removeClass("button_over");
+		$(this).addClass("button_click");
+		init();
+		$("#fuwufanwei_div").show();
+	});
+	$("#lianxiwomen_button").click(function(){
+		clear();
+		$(this).removeClass("button_over");
+		$(this).addClass("button_click");
+		init();
+		$("#lianxiwomen_div").show();
+	});
+})
+function clear(){
+	$(".title_list td").removeClass("button_click");
+}
+function init(){
+	$(".main_div div").hide();
+	
+}
+function play(url){
+	$("#television").attr("src",url);
+}
+</script>
+</head>
+
+<body class="body_background">
+	<!--标题栏-->
+	<div class="title_div">
+		<img src="image/logo.png" />
+		<div class="title_list">
+			<table >
+				<th>
+					<td class="title_list_td_right,button_out" id="shouye_button">相关视频</td>
+				</th>
+				<th>
+					<td class="title_list_td_right,button_out" id="guanyuyangshuang_button">关于杨爽</td>
+				</th>
+				<th>
+					<td class="title_list_td_right,button_out" id="fuwufanwei_button">服务范围</td>
+				</th>
+				<th>
+					<td class="button_out" id="lianxiwomen_button">联系我</td>
+				</th>
+			</table>
+		</div>
+	</div>
+	<!--网页主体-->
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class="box4"></div>
+	<div class="box5">
+		<div class="main_div">
+			<div id="shouye_div" >
+				<iframe id="television"  src='https://player.youku.com/embed/XNDEzNTA2Njg0==' frameborder=0 'allowfullscreen'></iframe>
+				  <ul>
+					<li><img src="image/video1.png" onclick="play('https://player.youku.com/embed/XNDEzNTA2Njg0==')"/> 
+						<a onclick="play('https://player.youku.com/embed/XNDEzNTA2Njg0==')">杨爽-塔河县专访</a></li>
+					<li><img src="image/video1.png" onclick="play('https://player.youku.com/embed/XNTg0MDM5NjA3Ng==')"/>
+						<a onclick="play('https://player.youku.com/embed/XNTg0MDM5NjA3Ng==')">杨爽-我的故事</a></li>
+					<li><img src="image/video1.png" onclick="play('https://player.bilibili.com/player.html?aid=490376757&bvid=BV1HN411q7aP&cid=1251276913&page=1')"/>
+						<a onclick="play('https://player.bilibili.com/player.html?aid=490376757&bvid=BV1HN411q7aP&cid=1251276913&page=1')">我的主站关站通知</a></li>
+					<li><img src="image/video1.png" onclick="play('https://player.bilibili.com/player.html?aid=233107815&bvid=BV1o8411q7CG&cid=1254940385&page=1')"/>
+						<a onclick="play('https://player.bilibili.com/player.html?aid=233107815&bvid=BV1o8411q7CG&cid=1254940385&page=1')">关站通知补充说明</a></li>
+					<li><img src="image/play.jpg" onclick="play('')"/>
+						<a onclick="play('https:')">视频5</a></li>
+					<li><img src="image/play.jpg" onclick="play('')"/>
+						<a onclick="play('')">视频6</a></li>
+					<li><img src="image/play.jpg" onclick="play('')"/>
+						<a onclick="play('')">视频7</a></li>
+				  </ul>
+			</div>
+			<div id="guanyuyangshuang_div" class="guanyuyangshuang">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					杨爽，男，1988年初春出生在黑龙江省大兴安岭的一个小镇。由于我是早产，一出生就是不幸的重度脑瘫患者。</p><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				“一岁时，妈妈带我去哈尔滨看病，医生说“这病看不好的，就放弃他吧，以后他只会拖累你一生。”妈妈听完医生的话，是哭着把我抱回老家的。四岁的时候，我的智力还不如一岁的孩子，周围的人看见妈妈很辛苦，都劝她说：算了吧，别为难自己了，还是放弃吧！可是妈妈依然每天辛苦的照顾我，并带我四处寻医问药，那时的我不仅没有智力而且四肢僵硬，没办法自由活动，经常被路人围观，他们看见我就像看见怪物一样！妈妈看在眼里疼在心上，她希望我可以和其他的孩子一样,可以自由地行走、可以正常地说话。</p><p>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                在妈妈的精心照料下，六岁的我终于会叫“爸爸妈妈”了，但是也只是能一个字一个字的说。那时吃饭对我来说也是件痛苦的事情，由于我不会咽食，每次吃饭的时候都需要妈妈像鸟妈妈喂小鸟一样用嘴咀嚼后喂我，所以我每次吃饭都需要一个小时左右。</p><p>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                八岁时我的智力已经接近同龄的孩子了，只是表达能力差，我说的话只有妈妈才能听得懂。同年我做了一个神经手术，大夫说：为了恢复的更好，手术后就要开始锻炼。手术后第四天妈妈就要我尝试着锻炼，锻炼的时候疼得我直流汗，我也想过放弃，但是看着妈妈期待又心疼的眼神，我在心里对自己说：哪怕流再多的汗再多的泪，也要为了妈妈站起来！那是几乎所有人都认为我是弱智，只有妈妈坚信我和其他孩子一样。妈妈鼓励我、表扬我，从小到大从没有人称赞过我，只有妈妈相信我！</p><p>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                那时我以为只要我努力，我就一定会让大家看见，能让妈妈松一口气。可事与愿违，九岁那年爸爸和妈妈提出离婚，我跟着爸爸生活了四年，12岁时我的外公外婆看我过的并不好，把我接到了妈妈身边。十五岁时爸爸意外去世，妈妈为了维持生计独自开了一个小面馆，虽然生活艰苦，但是妈妈每天都很乐观，她经常和我说：要学会面对现实，身残志不残，只要努力，生活会好起来的！慢慢的我们有了一点积蓄，妈妈就给我买了一台电脑，这是我想了很久的事情，网络带给我一个全新的世界，但是我却迷上了网络游戏……在2008年生日的那一天，妈妈与我进行了一次长谈，彻底的把我说清醒了，我觉得非常对不起妈妈，第二天我就把所有的游戏都关掉了。我开始学习一些关于电脑的技术，后来通过各大网络平台认识了很多朋友，大家经常在一起讨论一些技术问题，慢慢地懂的多了，但是由于我的先天缺陷，做起事来要比正常人慢些。</p><p>
+
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;我从未上过一天学，我的双手不能动，但我自己学会了拼音、汉字，学会了用脚打字、操作电脑，我虽然口齿不清，但我在思想上从未落后别人，我能用脚打出这样一篇文章，能制作电子相册，能用photoshop处理图片……我唯一的梦想就是能够用自己的一技之长帮助妈妈减轻经济负担。看着妈妈每天早起，为了维持生计忙碌奔波，我虽不善表达，但我疼在心里。我从不后悔来到这个世界，我也不会放弃对生活的希望，我相信妈妈说的话：只要努力就一定会成功！”</p><p>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                尽管经历了种种磨难，但是杨爽并没有放弃对生活的希望，经过自己的刻苦努力，在朋友、网友的帮助下，掌握了很多软件的基础应用，经常用自己所学的电脑技术热心帮助他人。在朋友的支持下，于2010年12月成立了杨爽工作室，并开通了淘宝店，主营业务为电脑系统、电脑网络、电脑软件等。</p>
+			</div>
+			<div id="fuwufanwei_div" >
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 杨爽工作室主营业务如下：</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                电脑系统的优化与安装：支持Windows7、Windows8系统，Windows8.1系统, Windows10系统, Windows11系统 ,集成最新的驱动软件，方便的傻瓜式一键安装，为电脑解决装机的后顾之忧。帮你清理系统垃圾，提升你电脑的开机速度，提高电脑运行体验。美化电脑系统，添加需要的功能到右键菜单，清除多余的插件，让电脑使用更加舒适享受！</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                电脑网络安全：有电脑的地方就会有网络，为了更好的保护您电脑里的重要文件，一个好的杀毒防护软件是必须的，然而网络病毒木马是无孔不入的，so，帮您订制可靠的电脑网络防护层，解决大多数常见的电脑网络问题，再也不用四处求人花冤枉钱啦！</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 电脑正版软件注册与安装：以成本价提供正版的电脑软件的下载注册与安装。</p>
+			</div>
+			<div id="lianxiwomen_div">
+				<p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 杨爽工作室QQ：<a
+
+                href="http://wpa.qq.com/msgrd?V=3&amp;Uin=675680672&amp;Site=%D1%EE%CB%AC%B9%A4%D7%F7%CA%D2&amp;Menu=yes&amp;from=discuz">675680672</a>
+
+        </p>
+
+            <p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 杨爽杂货铺：<a href="#">已关闭</a>
+
+            </p>
+
+            <p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 阿里旺旺：<a
+
+                    href="http://www.taobao.com/webww/?spm=a1z10.1.0.0.AUDhno&amp;ver=1&amp;&amp;touid=cntaobaoyangshuang9889&amp;siteid=cntaobao&amp;status=2&amp;portalId=&amp;gid=&amp;itemsId=">yangshuang9889</a>
+
+            </p>
+
+            <p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 邮箱：675680672@qq.com</p>
+
+            <p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 新浪微博：<a href="http://weibo.com/yangshuang9889">http://weibo.com/yangshuang9889</a>
+
+            </p>
+
+            <p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 腾讯微博<a href="http://t.qq.com/yangshuang9889">：http://t.qq.com/yangshuang9889 已关闭</a>
+            <p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 杨爽工作室主站<a href="https://www.xn--yrv04v.com">：https://www.xn--yrv04v.com 已关闭</a>
+
+            </p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
